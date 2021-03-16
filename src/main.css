@@ -60,6 +60,9 @@ input:focus, input:focus-within, input:active {
   font-size: 2rem;
   font-weight: bold;
 }
+.container .result-word .emoji {
+  padding: 1rem;
+}
 .container .result-word .pronunciation {
   font-style: italic;
 }
