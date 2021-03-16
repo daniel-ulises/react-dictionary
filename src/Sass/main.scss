@@ -1,0 +1,10 @@
+@use "./abstracts/variables" as var;
+@use "./base";
+@use "./components";
+@use "./layout";
+
+body {
+	font-family: Montserrat;
+	font-size: 17px;
+	background-color: var.$bg-color;
+}

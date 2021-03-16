@@ -1,0 +1,20 @@
+@use "../abstracts/variables" as var;
+
+.welcome-msg {
+	background-color: var.$primary-color;
+	color: var.$bg-color;
+	width: 80%;
+	max-width: 40rem;
+	padding: 2rem;
+	margin: auto;
+	border-radius: 0 0 10px 10px;
+
+	p {
+		line-height: 1.4rem;
+	}
+
+	h3 {
+		margin: 1rem 0;
+		text-align: center;
+	}
+}

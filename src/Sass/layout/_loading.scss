@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as var;
+
+.container-loader {
+	background-color: var.$primary-color;
+	padding: 5rem;
+	border-radius: 0 0 10px 10px;
+
+	.loader {
+		width: 5rem;
+		height: 5rem;
+		margin: auto;
+		border: 0.5rem solid var.$secondary-color;
+		border-bottom: 0.5rem solid var.$accent-color;
+		border-radius: 50%;
+		animation: spin 1.5s linear infinite;
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

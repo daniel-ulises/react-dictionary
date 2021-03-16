@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as var;
+
+.search {
+	width: 80%;
+	max-width: 40rem;
+	padding: 2rem;
+	margin: 5rem auto 0;
+	background-color: var.$secondary-color;
+	border-radius: 10px 10px 0 0;
+}

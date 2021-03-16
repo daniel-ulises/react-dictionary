@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as var;
+
+@font-face {
+	font-family: Montserrat;
+	src: url("./fonts/Montserrat-Regular.otf");
+}
+
+a {
+	text-decoration: underline;
+	color: var.$accent-color;
+
+	&:hover {
+		color: var.$primary-color;
+		background-color: var.$accent-color;
+	}
+}
